@@ -1,0 +1,251 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.logo {
+  position: relative;
+  top: -35px;
+  margin-left: 41%;
+}
+
+svg {
+  fill: white;
+}
+
+.navbar {
+  position: fixed;
+
+  left: 4%;
+  top: 50px;
+  width: 92%;
+
+  background-color: rgb(25, 25, 25);
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 6px;
+
+  font-family: 'Kdam Thmor', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+.navbar div {
+  float: right;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.join-btn {
+  background-color: #e51c89;
+  border: 1px solid #ff3398;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 10px;
+  font-weight: 600;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  transform: scale(0.9);
+}
+
+.intro {
+  margin-top: 140px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+}
+
+.intro pre {
+  font-size: 100px;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100px;
+  letter-spacing: -8px;
+
+  background: linear-gradient(180deg, #ff3398 32.79%, #f7931a 85.45%);
+  background-image: linear-gradient(rgb(255, 51, 152) 32.79%, rgb(247, 147, 26) 85.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mission .title {
+  font-family: 'Kdam Thmor', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mission pre {
+  font-size: 48px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 50px;
+
+  background: linear-gradient(180deg, #ff3398 32.79%, #f7931a 85.45%);
+  background-image: linear-gradient(rgb(255, 51, 152) 32.79%, rgb(247, 147, 26) 85.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mission .figure {
+  font-size: 400px;
+  font-weight: 1000;
+  font-family: 'Familjen Grotesk', sans-serif;
+  letter-spacing: -15px;
+  line-height: 450px;
+
+  background: linear-gradient(180deg, #F7931A 38.2%, #FF7DBD 85.45%, #E51C8D 101.82%);
+  background-image: linear-gradient(rgb(247, 147, 26) 38.2%, rgb(255, 125, 189) 69.73%, rgb(229, 28, 141) 101.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.figure-box p {
+  color: #E51C89;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.figure-box .comment {
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+.figure-box .join-btn {
+  width: 100px;
+}
+
+.comment {
+  margin-left: 150px;
+}
+
+.ecosystem img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container img {
+  width: 50%;
+}
+
+.ecosystem pre {
+  margin-top: 75px;
+  color: #FFABD4;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 48px;
+  inline-height: 52px;
+}
+
+.ecosystem .join-btn {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.footer {
+  left: 4%;
+  width: 100%;
+
+  margin-top: 200px;
+
+  background-color: rgb(25, 25, 25);
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 6px;
+
+  font-family: 'Kdam Thmor', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  font-family: 'Kdam Thmor', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: 100px;
+}
+
+.footer img {
+  width: 60%;
+}
+
+.icon-list {
+  display: flex;
+  margin-bottom: 50px;
+  margin-right: 60px;
+}
+
+.icon-list svg {
+  margin-right: 10px;
+}
+
+.footer .join-btn {
+  width: 110px;
+  margin-right: 70px;
+}
+
+.footer-announcement {
+  color: #3b3b3b;
+  font-family: 'kdam Thmor', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: 400;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
